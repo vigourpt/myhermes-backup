@@ -1,0 +1,30 @@
+2026-04-14T18:40:17.474896 Project directory: /docker/hermes-agent-9v6v
+2026-04-14T18:40:17.475336 Pulling project images
+2026-04-14T18:40:17.475967 ------------------------------
+2026-04-14T18:40:17.522658 time="2026-04-14T18:40:17Z" level=warning msg="The \"OPENROUTER_API_KEY\" variable is not set. Defaulting to a blank string."
+2026-04-14T18:40:17.522729 time="2026-04-14T18:40:17Z" level=warning msg="The \"ANTHROPIC_API_KEY\" variable is not set. Defaulting to a blank string."
+2026-04-14T18:40:17.522739 time="2026-04-14T18:40:17Z" level=warning msg="The \"OPENAI_API_KEY\" variable is not set. Defaulting to a blank string."
+2026-04-14T18:40:17.522747 time="2026-04-14T18:40:17Z" level=warning msg="The \"TELEGRAM_BOT_TOKEN\" variable is not set. Defaulting to a blank string."
+2026-04-14T18:40:17.571056  Image alpine:3.20 Pulling 
+2026-04-14T18:40:17.571116  Image nousresearch/hermes-agent:latest Pulling 
+2026-04-14T18:40:18.498799  Image nousresearch/hermes-agent:latest Pulled 
+2026-04-14T18:40:19.788021  Image alpine:3.20 Pulled 
+2026-04-14T18:40:19.818791 ------------------------------
+2026-04-14T18:40:19.818918 Deploying project
+2026-04-14T18:40:19.819528 ------------------------------
+2026-04-14T18:40:19.863239 time="2026-04-14T18:40:19Z" level=warning msg="The \"OPENROUTER_API_KEY\" variable is not set. Defaulting to a blank string."
+2026-04-14T18:40:19.863295 time="2026-04-14T18:40:19Z" level=warning msg="The \"ANTHROPIC_API_KEY\" variable is not set. Defaulting to a blank string."
+2026-04-14T18:40:19.863309 time="2026-04-14T18:40:19Z" level=warning msg="The \"OPENAI_API_KEY\" variable is not set. Defaulting to a blank string."
+2026-04-14T18:40:19.863317 time="2026-04-14T18:40:19Z" level=warning msg="The \"TELEGRAM_BOT_TOKEN\" variable is not set. Defaulting to a blank string."
+2026-04-14T18:40:19.928941  Container hermes-agent-9v6v-fix-perms-1 Creating 
+2026-04-14T18:40:19.999506  Container hermes-agent-9v6v-fix-perms-1 Created 
+2026-04-14T18:40:19.999689  Container hermes-agent-9v6v-hermes-agent-1 Recreate 
+2026-04-14T18:40:20.169485  Container hermes-agent-9v6v-hermes-agent-1 Recreated 
+2026-04-14T18:40:20.188830  Container hermes-agent-9v6v-fix-perms-1 Starting 
+2026-04-14T18:40:20.347288  Container hermes-agent-9v6v-fix-perms-1 Started 
+2026-04-14T18:40:20.348728  Container hermes-agent-9v6v-fix-perms-1 Waiting 
+2026-04-14T18:40:20.850143  Container hermes-agent-9v6v-fix-perms-1 Exited 
+2026-04-14T18:40:20.850226  Container hermes-agent-9v6v-hermes-agent-1 Starting 
+2026-04-14T18:40:21.004289  Container hermes-agent-9v6v-hermes-agent-1 Started 
+2026-04-14T18:40:21.013316 ------------------------------
+2026-04-14T18:40:21.013597 Project deployed successfully
