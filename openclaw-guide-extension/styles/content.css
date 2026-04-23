@@ -1,0 +1,19 @@
+/* OpenClaw Guide - Content Script Styles (injected into OpenClaw UI) */
+
+.openclaw-guide-highlight {
+  outline: 2px dashed rgba(0, 212, 170, 0.5);
+  outline-offset: 2px;
+}
+
+.openclaw-guide-hint {
+  position: relative;
+}
+
+.openclaw-guide-hint::after {
+  content: 'ℹ️';
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  font-size: 12px;
+  cursor: help;
+}

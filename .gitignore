@@ -1,1 +1,3 @@
-.venv/
+
+# Embedded git repositories
+openclaw/

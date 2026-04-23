@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenClaw Setup Guide</title>
+  <link rel="stylesheet" href="../styles/sidebar.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">
+        <svg width="28" height="28" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="45" stroke="#00D4AA" stroke-width="6"/>
+          <path d="M30 50 L45 65 L70 35" stroke="#00D4AA" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>OpenClaw Guide</span>
+      </div>
+      <button id="themeToggle" class="theme-btn" title="Toggle theme">🌙</button>
+    </header>
+
+    <!-- Context Indicator -->
+    <div id="contextBar" class="context-bar">
+      <span class="context-label">Detected:</span>
+      <span id="currentPage" class="context-value">Loading...</span>
+    </div>
+
+    <!-- AI Chat Toggle -->
+    <div class="ai-toggle">
+      <button id="aiChatToggle" class="ai-btn">
+        <span class="ai-icon">🤖</span>
+        <span>Ask AI</span>
+      </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="nav-section">
+        <div class="nav-title">Getting Started</div>
+        <button class="nav-item active" data-section="overview">
+          <span class="nav-icon">🏠</span> Overview
+        </button>
+        <button class="nav-item" data-section="quickstart">
+          <span class="nav-icon">🚀</span> Quick Start
+        </button>
+        <button class="nav-item" data-section="architecture">
+          <span class="nav-icon">🏗️</span> Architecture
+        </button>
+      </div>
+      <div class="nav-section">
+        <div class="nav-title">Configuration</div>
+        <button class="nav-item" data-section="config">
+          <span class="nav-icon">⚙️</span> Config Editor
+        </button>
+        <button class="nav-item" data-section="channels">
+          <span class="nav-icon">💬</span> Channels
+        </button>
+        <button class="nav-item" data-section="agents">
+          <span class="nav-icon">🤖</span> Agents
+        </button>
+        <button class="nav-item" data-section="models">
+          <span class="nav-icon">🧠</span> Models
+        </button>
+      </div>
+      <div class="nav-section">
+        <div class="nav-title">Features</div>
+        <button class="nav-item" data-section="skills">
+          <span class="nav-icon">📦</span> Skills
+        </button>
+        <button class="nav-item" data-section="sessions">
+          <span class="nav-icon">💭</span> Sessions
+        </button>
+        <button class="nav-item" data-section="tools">
+          <span class="nav-icon">🔧</span> Tools
+        </button>
+        <button class="nav-item" data-section="sandbox">
+          <span class="nav-icon">📦</span> Sandbox
+        </button>
+      </div>
+      <div class="nav-section">
+        <div class="nav-title">Advanced</div>
+        <button class="nav-item" data-section="gateway">
+          <span class="nav-icon">🌐</span> Gateway
+        </button>
+        <button class="nav-item" data-section="security">
+          <span class="nav-icon">🔒</span> Security
+        </button>
+        <button class="nav-item" data-section="webhooks">
+          <span class="nav-icon">🪝</span> Webhooks
+        </button>
+        <button class="nav-item" data-section="troubleshooting">
+          <span class="nav-icon">🔍</span> Troubleshooting
+        </button>
+      </div>
+    </nav>
+
+    <!-- Content Area -->
+    <main id="content" class="content">
+      <!-- Dynamic content loaded here -->
+    </main>
+
+    <!-- AI Chat Panel (Hidden by default) -->
+    <div id="aiPanel" class="ai-panel hidden">
+      <div class="ai-header">
+        <span>🤖 OpenClaw AI Assistant</span>
+        <button id="aiClose" class="ai-close">×</button>
+      </div>
+      <div id="aiMessages" class="ai-messages"></div>
+      <div class="ai-input-area">
+        <textarea id="aiInput" placeholder="Ask about OpenClaw..." rows="2"></textarea>
+        <button id="aiSend" class="ai-send">Send</button>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <span>OpenClaw v1.0</span>
+    </footer>
+  </div>
+
+  <script src="../scripts/knowledge-base.js"></script>
+  <script src="../scripts/sidebar.js"></script>
+</body>
+</html>

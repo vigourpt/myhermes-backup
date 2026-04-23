@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "OpenClaw Setup Guide",
+    "description": "Extension name"
+  },
+  "extensionDescription": {
+    "message": "Contextual guide and AI assistant for OpenClaw Control UI",
+    "description": "Extension description"
+  }
+}
