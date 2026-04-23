@@ -1,3 +1,6 @@
 
 # Embedded git repositories
 openclaw/
+
+# Playwright browser binaries
+.playwright/
